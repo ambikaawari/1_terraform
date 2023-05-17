@@ -11,6 +11,6 @@ on:
     #uses: ambikaawari/1_terraform/.github/workflows/terraform.yml@v1
 jobs:
   job1:
-    uses: ambikaawari/1_terraform/.github/workflows/terraform.yml@v1
+    uses: .github/workflows/terraform.yml@v1
 
 
