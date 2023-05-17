@@ -1,16 +1,14 @@
 name: Call a reusable workflow
 
 on:
- pull_request:
-    branches:
-      - main
-  #workflow_dispatch:
+
+  workflow_dispatch:
 
 #jobs:
   #call-workflow:
     #uses: ambikaawari/1_terraform/.github/workflows/terraform.yml@v1
 jobs:
-  job1:
+  call-workflow-in-local-repo:
     uses: ./.github/workflows/terraform.yml
 
 
