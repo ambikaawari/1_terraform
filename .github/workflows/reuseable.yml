@@ -5,6 +5,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: .github/workflows/terraform.yml@v1
+    uses: ambikaawari/1_terraform/main/.github/workflows/reuseable.yml@v1
+  
 
 
